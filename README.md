@@ -275,6 +275,7 @@ Dataset distribution:
 ## Observations and Analysis
 
  - Comparison between results obtained by all the methods:
+   
 | Model Name      | Accuracy | Precision | Recall | F1-score |
 |----------------|----------|-----------|--------|----------|
 | SVM            | 0.9328   | 0.9359    | 0.9307 | 0.9323   |
@@ -484,15 +485,18 @@ This meant that some images are missing. So, we mapped the images and our final 
 | Accuracy   | 96.32% |
 
 ### Inference results
+#### Traditional Segmentation Techniques
 ![Inference results](Segmentation/Images/Inference1-part1.png)
 ![Inference results](Segmentation/Images/Inference1-part2.png)
 ![Inference results](Segmentation/Images/Inference1-part3.png)
 ![Inference results](Segmentation/Images/Inference2-part1.png)
 ![Inference results](Segmentation/Images/Inference2-part2.png)
 ![Inference results](Segmentation/Images/Inference2-part3.png)
+#### U-Net
 ![Inference results](Segmentation/Images/unetinference1.png)
 ![Inference results](Segmentation/Images/unetinference2.png)
-
+# Results comparison
+![Inference results](Segmentation/Images/inference.png)
 
 ## Observations and Analysis
 

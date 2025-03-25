@@ -144,7 +144,7 @@ Dataset distribution:
      The output of the convolutional layers is flattened and passed through fully connected layers with **ReLU**, **Tanh**, or **SELU** activation functions to introduce non-linearity.
    - **Output Layer:**  
      The final output layer has a **sigmoid** or **tanh** activation function for binary classification (mask/no mask).
-     ![CNN Model Summary](Classification/Images/cnnmodelsummary.png)
+     ![CNN Model Summary](Classification/Images/cnnmodelsummary.jpg)
    
    **Optimizer and Loss Function:**
    - **Optimizer:** The model uses the following optimizers:
@@ -256,12 +256,12 @@ Dataset distribution:
 ### Handcrafted Features and ML Classifiers
 
 #### SVM Classifier
-![SVM Confusion Matrix](Classification/Images/confusionmatrixsvm.png)
-![SVM ROC AUC](Classification/Images/rocaucsvm.png)
+![SVM Confusion Matrix](Classification/Images/confusionmatrixsvm.jpg)
+![SVM ROC AUC](Classification/Images/rocaucsvm.jpg)
 
 #### Neural Network Classifier
-![NN Confusion Matrix](Classification/Images/confusionmatrixnn.png)
-![NN ROC AUC](Classification/Images/rocaucnn.png)
+![NN Confusion Matrix](Classification/Images/confusionmatrixnn.jpg)
+![NN ROC AUC](Classification/Images/rocaucnn.jpg)
 
 ### Deep Learning
 
@@ -270,7 +270,7 @@ Dataset distribution:
 ![CNN ROC AUC](Classification/Images/rocauccnn.png)
 
 ### Inference results
-![Inference results](Classification/Images/inference.png)
+![Inference results](Classification/Images/inference.jpg)
 
 ## Observations and Analysis
 
@@ -346,7 +346,7 @@ VR_Project1/
 ```
 ## Dataset
 Sample Images from the dataset:
-![Sample Images from dataset](Segmentation/Images/sample_images.png)
+![Sample Images from dataset](Segmentation/Images/sample_images.jpg)
 
 Dataset information:
 Our dataset for segmentation is A Masked Face Segmentation Dataset with ground truth face masks can be accessed. The folder contained, normal images, cropped images, and the segmented images. However, 
@@ -448,7 +448,7 @@ This meant that some images are missing. So, we mapped the images and our final 
     - Bottleneck: High-dimensional feature extraction
     - Decoder: Transposed convolutions and skip connections
     - Output Layer: Sigmoid activation for binary mask
-   ![CNN Model Summary](Segmentation/Images/unetmodelsummary.png)
+      U-Net Model Summary](Segmentation/Images/unetmodelsummary.jpg)
 
 
 ## Hyperparameters and Experiments (U-Net)
@@ -495,8 +495,8 @@ This meant that some images are missing. So, we mapped the images and our final 
 ![Inference results](Segmentation/Images/Inference2-part2.png)
 ![Inference results](Segmentation/Images/Inference2-part3.png)
 #### U-Net
-![Inference results](Segmentation/Images/unetinference1.png)
-![Inference results](Segmentation/Images/unetinference2.png)
+![Inference results](Segmentation/Images/unetinference1.jpg)
+![Inference results](Segmentation/Images/unetinference2.jpg)
 
 
 ## Observations and Analysis

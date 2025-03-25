@@ -349,10 +349,16 @@ Sample Images from the dataset:
 ![Sample Images from dataset](Segmentation/Images/sample_images.jpg)
 
 Dataset information:
-Our dataset for segmentation is A Masked Face Segmentation Dataset with ground truth face masks can be accessed. The folder contained, normal images, cropped images, and the segmented images. However, 
-Number of images in cropped_images_dir: 9452
-Number of images in segmented_images_dir: 9471
-This meant that some images are missing. So, we mapped the images and our final dataset came t a total of 9382 image pairs.
+Our dataset for segmentation includes ground truth face masks. The dataset consists of three types of images:
+- **Normal Images**  
+- **Cropped Images**  
+- **Segmented Images**  
+
+## Dataset Statistics
+- **Number of images in `cropped_images_dir`**: 9,452  
+- **Number of images in `segmented_images_dir`**: 9,471  
+
+Some images were missing from the dataset, so we mapped the available images. After processing, our final dataset contains **9,382 image pairs**.
 
 #### Source
 [![GitHub](https://img.shields.io/badge/Source-GitHub-blue)](https://github.com/sadjadrz/MFSD) 

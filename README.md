@@ -528,3 +528,6 @@ Some images were missing from the dataset, so we mapped the available images. Af
     - Augmented data using image transformations
     - Applied early stopping and regularization
     - Optimized hyperparameters
+
+## How to run the code?
+To perform inference using classification models, run this ipynb file: [Inference Notebook](Segmentation/Notebooks/Inference.ipynb)

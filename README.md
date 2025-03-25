@@ -1,4 +1,4 @@
-# VR Project1 by: RishitaPatel_MS2024016, AnweshNayak_MS20224003, AshashreeSarma_MS2024005
+# VR Project1 by: AshashreeSarma_MS2024005, AnweshNayak_MS2024003, RishitaPatel_MS2024016
  
 ## Introduction
 
@@ -373,7 +373,7 @@ Some images were missing from the dataset, so we mapped the available images. Af
  - Normalization: Scaled pixel values to a standard range for consistency across different techniques
 
 #### 2. **Traditional Segmentation Techniques:**
- - Otsu's Thresholding
+ - **Otsu's Thresholding**
     - Reason for Use: Provides an automated way to determine an optimal threshold
     - Distinguishing Feature: Calculates an optimal threshold by minimizing intra-class variance
     - Description: Global thresholding technique that automatically determines an optimal threshold to separate foreground and background
@@ -386,7 +386,7 @@ Some images were missing from the dataset, so we mapped the available images. Af
        - Avg Recall: 0.0087
        - Avg F1-Score: 0.0052
 
- - Adaptive Thresholding
+ - **Adaptive Thresholding**
     - Reason for Use: Adapts to local variations in illumination
     - Distinguishing Feature: Applies different thresholds to different parts of the image dynamically
     - Description: Applies different thresholds to different parts of the image based on local pixel intensity variations
@@ -399,7 +399,7 @@ Some images were missing from the dataset, so we mapped the available images. Af
        - Avg Recall: 0.0075
        - Avg F1-Score: 0.0042
 
- - Watershed Algorithm
+ - **Watershed Algorithm**
     - Reason for Use: Designed for segmenting overlapping objects
     - Distinguishing Feature: Uses a topographic representation to identify object boundaries
     - Description: A marker-based segmentation algorithm that treats intensity gradients like topographic surfaces
@@ -412,7 +412,7 @@ Some images were missing from the dataset, so we mapped the available images. Af
        - Avg Recall: 0.0087
        - Avg F1-Score: 0.0059
 
- - GrabCut Algorithm
+ - **GrabCut Algorithm**
     - Reason for Use: Refined foreground-background separation
     - Distinguishing Feature: Iteratively refines segmentation using Graph Cut optimization
     - Description: Iterative segmentation technique based on Graph Cut algorithm, requiring an initial bounding box
@@ -425,7 +425,7 @@ Some images were missing from the dataset, so we mapped the available images. Af
         - Avg Recall: 0.0088
         - Avg F1-Score: 0.0056
 
- - K-Means Clustering
+ - **K-Means Clustering**
     - Reason for Use: Clustering-based approach for automatic region segmentation
     - Distinguishing Feature: Uses unsupervised learning to group pixels
     - Description: Clustering-based approach that groups pixels into K different clusters based on intensity similarity

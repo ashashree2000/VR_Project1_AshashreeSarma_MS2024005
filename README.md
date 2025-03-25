@@ -312,6 +312,8 @@ Dataset distribution:
   - *ROC-AUC Analysis:* Incorporating ROC-AUC curves for both models helped in understanding the classifiers' ability to distinguish between the classes beyond simple accuracy metrics.
 
 
+## How to run the code?
+To perform inference using classification models, run this ipynb file: [Inference Notebook](Classification/Notebooks/Inference.ipynb)
 
 # Face Mask Segmentation 
 #### File Structure
@@ -495,8 +497,7 @@ This meant that some images are missing. So, we mapped the images and our final 
 #### U-Net
 ![Inference results](Segmentation/Images/unetinference1.png)
 ![Inference results](Segmentation/Images/unetinference2.png)
-# Results comparison
-![Inference results](Segmentation/Images/inference.png)
+
 
 ## Observations and Analysis
 
